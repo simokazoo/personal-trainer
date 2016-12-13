@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+  font-size: 16px;
+  font-family: 'Vollkorn', serif;
+}
+
+#header-nav {
+	background-color: #ffffff;
+	border-radius: 0;
+	border: 0;
+}
+
+
+#logo-img {
+  background: url('../images/2logo.png') no-repeat;
+  width: 120px;
+  height: 96px;
+  margin: 10px 15px 0px 0;
+}
+
+.navbar-brand h1 {
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand p{
+  color: #000000;
+  margin-top: 10px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 50px;
+}
+#nav-list a {
+  color: #000000;
+  font-size: 1.8em;
+  text-align: center;
+}
+#nav-list a:hover {
+  color: #595959;
+}
+
+#phone {
+  margin-top: 50px;
+}
+ 
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+
+/* END HEADER */
+
+#main-content.container {
+  padding-top: 100px;
+}
+
+.container .jumbotron {
+  padding: 0;
+}
+
+a.left.carousel-control {
+  visibility: hidden;
+}
+
+a.right.carousel-control {
+  visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+  visibility: visible;
+}
+
+.container-fluid {
+  background: white;
+}
+
+.btn {
+  font-size: 1em;
+  color: black;
+  padding: 0;
+}
+
+.social {
+  text-align: center;
+  background-color: white;
+}
+
+.panel-footer {
+  background-color: white;
+  border-top: none;
+}
+
+.icon {
+  color: black;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  
+}
+
+
